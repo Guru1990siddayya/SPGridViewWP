@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="8ce185e0-6c89-42b6-b350-4ccf2cef7a4d" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="DataSheetView.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="DataSheetView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5570e35f100dc6" Namespace="DataSheetView.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\DataSheetView\VisualWebPart1\VisualWebPart1UserControl.ascx" />
+    <TemplateFile Location="Images\DataSheetView\delete.png" />
+    <TemplateFile Location="LAYOUTS\1033\STYLES\DataSheetView\DataSheetView.css" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="DataSheetView_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
